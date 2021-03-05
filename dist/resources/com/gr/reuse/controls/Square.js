@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/core/Control"],function(e){"use strict";return e.extend("com.gr.reuse.controls.Square",{metadata:{properties:{text:"string",size:{type:"sap.ui.core.CSSSize",defaultValue:"200px"}}},renderer:function(e,t){e.openStart("div",t);e.style("width",t.getSize());e.style("height",t.getSize());e.class("mySquare");e.openEnd();e.text(t.getText());e.close("div")}})});
